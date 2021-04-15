@@ -1,0 +1,85 @@
+clientscheme.res
+
+		"CloseCaption_Normal"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Medium"
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CloseCaption_Italic"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Medium"
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CloseCaption_Bold"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Medium"
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"900"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CloseCaption_BoldItalic"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Medium"
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"900"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CloseCaption_Small"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Medium"
+				"tall"		"16"
+				"tall_hidef"	"24"
+				"weight"	"900"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+hudlayout.res
+
+HudCloseCaption
+	{
+		"fieldName" "HudCloseCaption"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"c200"
+		"ypos"		"235"	[$WIN32]
+		"ypos"		"236"	[$X360]
+		"wide"		"500"
+		"tall"		"136"	[$WIN32]
+		"tall"		"176"	[$X360]
+
+		"BgAlpha"	"0"
+
+		"GrowTime"		"0.25"
+		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemFadeOutTime"	"0.3"
+		"topoffset"		"0"
+	}
