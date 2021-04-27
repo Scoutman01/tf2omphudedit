@@ -912,6 +912,9 @@
 		"ypos"					"200"
 		"wide"					"100"
 		"tall"					"50"
+		
+		//"wide_minmode"					"0"
+		//"tall_minmode"					"0"
 	}
 
 	AnnotationsPanelCallout
