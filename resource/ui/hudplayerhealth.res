@@ -219,6 +219,26 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
+	"PlayerStatus_SpyMarked"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SpyMarked"
+		"xpos"			"50"
+		"ypos"			"90"
+		"zpos"			"7"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			""
+		"fgcolor"		"TanDark"
+		
+		"xpos_minmode"	"34"
+		"ypos_minmode"	"60"
+		"wide_minmode"	"24"
+		"tall_minmode"	"24"
+	}
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -579,6 +599,26 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_vampire_hud"
+		"fgcolor"		"255 255 255 255"
+		
+		"xpos_minmode"	"34"
+		"ypos_minmode"	"60"
+		"wide_minmode"	"24"
+		"tall_minmode"	"24"
+	}
+	"PlayerStatus_RuneReflect"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneReflect"
+		"xpos"			"50"
+		"ypos"			"90"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_reflect_hud"
 		"fgcolor"		"255 255 255 255"
 		
 		"xpos_minmode"	"34"
