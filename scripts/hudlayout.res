@@ -1074,11 +1074,13 @@
 	{
 		"fieldName"				"HudArenaNotification"
 		"visible"				"0"
-		"enabled"				"0"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"0"
-		"tall"					"0"
+		"enabled"				"1"
+		"xpos"					"c-160"
+		"ypos"					"75"
+		"ypos_hidef"				"90"
+		"ypos_lodef"				"90"
+		"wide"					"320"
+		"tall"					"150"
 	}
 
 	HudArenaCapPointCountdown
