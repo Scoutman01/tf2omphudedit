@@ -73,7 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"FuturaHeavy13"
+		"font"			"FuturaHeavy18"
 		"fgcolor"		"OmpSpecHP"
 		"labeltext"		"%Health%"
 	}
@@ -89,7 +89,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"FuturaHeavy13"
+		"font"			"FuturaHeavy18"
 		"fgcolor"		"OmpShadow"
 		"labeltext"		"%Health%"
 	}

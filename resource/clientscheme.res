@@ -43,10 +43,10 @@ Scheme
 		"OmpAmmoMetal"		"125 225 30 255"
 		"OmpDemoPipes"		"255 255 255 255"
 
-		"OmpAmmoClipLow1"	"255 255 255 255"
-		"OmpAmmoClipLow2"	"255 255 255 255"
-		"OmpAmmoReserveLow1"	"255 255 255 255"
-		"OmpAmmoReserveLow2"	"255 255 255 255"
+		"OmpAmmoClipLow1"	"255 255 255 255" // 255 30 30 255
+		"OmpAmmoClipLow2"	"255 255 255 255" // 200 30 30 255
+		"OmpAmmoReserveLow1"	"255 255 255 255" // 255 30 30 255
+		"OmpAmmoReserveLow2"	"255 255 255 255" // 200 30 30 255
 		
 		"OmpHealNumbers"	"125 225 30 255"
 		"OmpDamageNumbers"	"255 255 30 255"
@@ -668,6 +668,16 @@ Scheme
 			{
 				"name"		"FuturaStd-Heavy"
 				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy18"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Heavy"
+				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2235,7 +2245,8 @@ Scheme
 				"additive"	"1"
 				"antialias" 	"1"
 			}
-		}		
+		}
+		
 		TFFontMedium
 		{
 			"1"
