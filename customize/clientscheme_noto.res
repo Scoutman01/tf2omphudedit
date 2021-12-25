@@ -516,7 +516,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"7"
 				"additive"	"0"
 				"antialias" "1"
@@ -526,7 +526,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -536,7 +536,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -546,7 +546,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -556,7 +556,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -566,7 +566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -576,7 +576,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -586,7 +586,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -596,7 +596,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -606,7 +606,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -616,7 +616,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -626,7 +626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -636,7 +636,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"60"
 				"additive"	"0"
 				"antialias" "1"
@@ -749,7 +749,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Noto Sans Bold"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -6002,23 +6002,17 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
-		// omp fonts
 		"8"
-		{
-			"font" "resource/fonts/NotoSans-Regular.ttf"
-			"name" "Noto Sans"
-		}
-		"9"
 		{
 			"font" "resource/fonts/NotoSans-Bold.ttf"
 			"name" "Noto Sans Bold"
 		}
-		"10"
+		"9"
 		{
 			"font" "resource/fonts/blocks.ttf"
 			"name" "Blocks"
 		}
-		"11"
+		"10"
 		{
 			"font" "resource/fonts/m0rehud icons.ttf"
 			"name" "m0rehud Icons"
