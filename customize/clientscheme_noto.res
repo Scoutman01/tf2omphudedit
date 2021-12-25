@@ -672,6 +672,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FuturaHeavy18"
+		{
+			"1"
+			{
+				"name"		"Noto Sans Bold"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaHeavy20"
 		{
 			"1"
