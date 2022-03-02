@@ -703,6 +703,26 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"FuturaHeavy24"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Heavy"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy26"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Heavy"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaHeavy36"
 		{
 			"1"
