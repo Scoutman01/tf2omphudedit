@@ -60,6 +60,13 @@ Scheme
 		
 		"Menu Labels"		"255 0 127 255"
 		
+		"OmpSpectatorHealth"		"255 255 255 255"
+		"OmpSpectatorHealthBonus"	"125 225 30 255"
+		"OmpSpectatorHealthDying"	"255 200 30 255"
+		"OmpSpectatorHealthBG"		"60 60 60 255"
+		"OmpSpectatorHealthBGBonus"	"30 60 60 255"
+		"OmpSpectatorHealthBGDying"	"125 30 75 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
