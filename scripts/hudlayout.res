@@ -246,10 +246,10 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-100"
+		"xpos"		"c-126"
 		"ypos"		"c10"
-		"wide"	 	"200"
-		"tall"	 	"40"
+		"wide"	 	"f0"
+		"tall"	 	"50"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -265,10 +265,10 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-100"
-		"ypos"		"c70" //c100
-		"wide"	 	"200"
-		"tall"	 	"40"
+		"xpos"		"c-126"
+		"ypos"		"c100"
+		"wide"	 	"f0"
+		"tall"	 	"50"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -281,11 +281,10 @@
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-100"
-		"ypos"		"c100"
-		"zpos"		"1" // omp -- place above health cross.
-		"wide"	 	"200"
-		"tall"	 	"40"
+		"xpos"		"c-126"
+		"ypos"		"c82"
+		"wide"	 	"f0"
+		"tall"	 	"50"
 		"priority"	"35"
 
 		if_vr
