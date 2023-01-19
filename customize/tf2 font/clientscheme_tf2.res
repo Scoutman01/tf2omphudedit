@@ -679,6 +679,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FuturaHeavy17"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"17"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaHeavy18"
 		{
 			"1"
@@ -708,6 +718,16 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
+			}
+		}
+		"FuturaHeavy23"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"23"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FuturaHeavy24"
