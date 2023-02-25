@@ -60,6 +60,13 @@ Scheme
 		
 		"Menu Labels"		"255 0 127 255"
 		
+		"OmpSpectatorHealth"		"255 255 255 255"
+		"OmpSpectatorHealthBonus"	"125 225 30 255"
+		"OmpSpectatorHealthDying"	"255 200 30 255"
+		"OmpSpectatorHealthBG"		"60 60 60 255"
+		"OmpSpectatorHealthBGBonus"	"30 60 60 255"
+		"OmpSpectatorHealthBGDying"	"125 30 75 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -516,7 +523,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"7"
 				"additive"	"0"
 				"antialias" "1"
@@ -526,7 +533,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -536,7 +543,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -546,7 +553,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -556,7 +563,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -566,7 +573,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -576,7 +583,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -586,7 +593,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -596,7 +603,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -606,7 +613,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -616,7 +623,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -626,7 +633,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -636,7 +643,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"60"
 				"additive"	"0"
 				"antialias" "1"
@@ -646,7 +653,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -656,7 +663,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"13"
 				"additive"	"0"
 				"antialias" "1"
@@ -666,8 +673,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy17"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"17"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -676,7 +693,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -686,7 +703,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -696,18 +713,48 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
 			}
 		}
+		"FuturaHeavy23"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"23"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy24"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy26"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaHeavy36"
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" "1"
@@ -717,7 +764,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"56"
 				"additive"	"0"
 				"antialias" "1"
@@ -727,7 +774,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"56"
 				"additive"	"0"
 				"antialias" "1"
@@ -749,7 +796,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans Bold"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -6002,20 +6049,26 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
-		"8"
+		// omp fonts
+		"8" 
 		{
-			"font" "resource/fonts/NotoSans-Bold.ttf"
-			"name" "Noto Sans Bold"
+			"font" "resource/fonts/AvenirLTStd-Black.ttf"
+			"name" "AvenirLTStd-Black"
 		}
 		"9"
+		{
+			"font" "resource/fonts/AvenirLTStd-Medium.otf"
+			"name" "AvenirLTStd-Medium"
+		}
+		"10"
 		{
 			"font" "resource/fonts/blocks.ttf"
 			"name" "Blocks"
 		}
-		"10"
+		"11"
 		{
 			"font" "resource/fonts/m0rehud icons.ttf"
 			"name" "m0rehud Icons"
-		}
+		}	
 	}
 }
