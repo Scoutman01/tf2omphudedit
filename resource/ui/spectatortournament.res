@@ -19,6 +19,12 @@
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"17"
 		
+		if_mvm
+		{
+			"team1_player_base_y"		"0"
+			"team1_player_delta_y"		"17"
+		}
+		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
