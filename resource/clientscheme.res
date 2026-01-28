@@ -836,13 +836,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -891,13 +890,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -937,13 +935,12 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -1017,12 +1014,12 @@ Scheme
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
+				"antialias"	"1"
 			}
 		}
 		"HudFontGiant"
@@ -1068,11 +1065,10 @@ Scheme
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -1153,6 +1149,15 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"24"
+				"weight"	"500"
+				"yres"		"1 1199"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1637,13 +1642,12 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1653,8 +1657,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1665,8 +1668,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1676,8 +1678,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1821,6 +1822,17 @@ Scheme
 				"weight"		"500"
 			}
 		}
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ScoreboardVerySmall"
 		{
 			"1"
@@ -1829,17 +1841,6 @@ Scheme
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ScoreboardSmallest"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2273,7 +2274,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
 		TFFontMedium
 		{
 			"1"
@@ -2625,7 +2625,6 @@ Scheme
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 		"AchievementTracker_Desc"
@@ -2644,7 +2643,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2655,7 +2655,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -2665,12 +2666,12 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 		"ItemTrackerScore_InGame"
@@ -2688,6 +2689,7 @@ Scheme
 		{
 			"1"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -2697,6 +2699,7 @@ Scheme
 			}
 			"2"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -2706,6 +2709,7 @@ Scheme
 			}
 			"3"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"400"
@@ -2719,6 +2723,7 @@ Scheme
 		{
 			"1"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
@@ -2728,6 +2733,7 @@ Scheme
 			}
 			"2"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
@@ -2737,6 +2743,7 @@ Scheme
 			}
 			"3"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
@@ -2750,6 +2757,7 @@ Scheme
 		{
 			"1"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
@@ -2895,7 +2903,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3181,7 +3189,6 @@ Scheme
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 
@@ -3195,7 +3202,6 @@ Scheme
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 		
@@ -3216,6 +3222,7 @@ Scheme
 		{
 			"1"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
@@ -3229,6 +3236,7 @@ Scheme
 		{
 			"1"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"400"
@@ -3241,6 +3249,7 @@ Scheme
 		{
 			"1"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -3253,6 +3262,7 @@ Scheme
 		{
 			"1"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -3265,6 +3275,7 @@ Scheme
 		{
 			"1"
 			{
+				//"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"30"
 				"weight"	"400"
@@ -3543,13 +3554,14 @@ Scheme
 				
 		MainMenuSubButtonBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 1 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -3558,7 +3570,7 @@ Scheme
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 		}
@@ -5968,6 +5980,9 @@ Scheme
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	// Range specificies the characters to be used from the custom font before falling back to a default font
+	// characters in the range not specificed in the font will appear empty
+	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -6028,24 +6043,92 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7" "resource/ocra.ttf"
+		"7"
+		{
+			"font"	"resource/ocra.ttf"
+			"name" "ocra"
+			"turkish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x007E"
+			}
+		}
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 		// omp fonts
-		"8"
+		"50"
 		{
 			"font" "resource/fonts/futurastd-medium.otf"
 			"name" "FuturaStd-Medium"
 		}
-		"9"
+		"51"
 		{
 			"font" "resource/fonts/futurastd-heavy.otf"
 			"name" "FuturaStd-Heavy"
 		}
-		"10"
+		"52"
 		{
 			"font" "resource/fonts/blocks.ttf"
 			"name" "Blocks"
 		}
-		"11"
+		"53"
 		{
 			"font" "resource/fonts/m0rehud icons.ttf"
 			"name" "m0rehud Icons"
