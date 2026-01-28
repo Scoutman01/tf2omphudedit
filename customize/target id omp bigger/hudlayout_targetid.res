@@ -1,5 +1,3 @@
-#base "../scripts/Crosshairs/crosshairs.res"
-
 "Resource/HudLayout.res"
 {
 	CMainTargetID
@@ -7,7 +5,7 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
+		"xpos"		"c-100"
 		"ypos"		"c10"
 		"zpos"		"1"
 		"wide"	 	"f0"
@@ -27,7 +25,7 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
+		"xpos"		"c-100"
 		"ypos"		"c120"
 		"wide"	 	"f0"
 		"tall"	 	"65"
@@ -43,8 +41,8 @@
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c82"
+		"xpos"		"c-100"
+		"ypos"		"c100"
 		"zpos"		"1" // to be on top of the overheal health cross
 		"wide"	 	"f0"
 		"tall"	 	"65"
